@@ -17,6 +17,7 @@
   }
 
   .links {
+    margin: 0 auto;
     a {
       padding: auto 2.5%;
 
@@ -26,10 +27,10 @@
       &:visited {
         color: black;
       }
+    }
 
-      .fa {
-        padding: auto 5.5%;
-      }
+    .fa {
+      padding: 5.5%;
     }
   }
 
