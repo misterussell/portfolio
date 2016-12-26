@@ -9,6 +9,6 @@ export default React.createClass({
     let projects = allProjects.map((project, i) => {
       return <SingleProject key={ i } project={ project } />;
     });
-    return <ul className="all-projects">{ projects }</ul>;
+    return <div className="all-projects">{ projects }</div>;
   }
 });
