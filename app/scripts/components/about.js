@@ -8,11 +8,11 @@ export default React.createClass({
           <img src="../assets/images/logo.svg" />
         </article>
         <article className="bio">
-          <h3>About Me:</h3>
+          <h3 className="section-name">About Me</h3>
           <p>Bio text here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </article>
         <article className="stack">
-          <h3>Stack</h3>
+          <h3 className="section-name">Stack</h3>
           <ul>
             <li>HTML</li>
             <li>Javascript</li>
@@ -20,7 +20,6 @@ export default React.createClass({
             <li>SPAs</li>
             <li>REST APIs</li>
             <li>AJAX</li>
-            <li>JQuery</li>
             <li>Backbone</li>
             <li>React</li>
             <li>CSS3/CSS Modules</li>

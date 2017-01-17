@@ -9,11 +9,22 @@
   .single-project {
     position: relative;
     box-sizing: border-box;
-    border: solid .1rem $color-secondary-1-2;
     padding: .5rem;
-    margin: 1rem 0;
+    margin: .25rem 0;
+
+    .project-details {
+      padding: 1rem;
+    }
+
   }
 
+  .about-project {
+    margin: 0;
+  }
+
+  .challenges {
+    margin-bottom: 0;
+  }
   .name {
     display: inline;
     position: absolute;
@@ -21,8 +32,9 @@
     top: 1rem;
     left: 1.5rem;
     font-size: 2rem;
-    color: $color-primary-1;
+    color: $color-primary-4;
   }
+
 }
 
 @media (min-width: 500px) {
@@ -30,7 +42,6 @@
     display: inline-block;
     width: 70%;
     box-sizing: border-box;
-    padding-top: 1rem;
     padding-right: 1rem;
 
     .text-floater {

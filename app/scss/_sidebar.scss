@@ -3,6 +3,12 @@
   width: 80%;
   margin: 0 auto;
   border-bottom: solid .1rem $color-secondary-1-2;
+  font-size: .75rem;
+
+  .logo-block {
+    width: 40%;
+    margin: 0 auto;
+  }
 
   .stack ul {
     padding: 0 .15rem;
@@ -18,7 +24,7 @@
 
   .links {
     margin: 0 auto;
-    width: 40%;
+    width: 50%;
 
     a {
       font-size: 1rem;
@@ -42,6 +48,7 @@
 
     .fa {
       padding: 5.5%;
+      font-size: 1.5rem;
     }
   }
 }
@@ -51,8 +58,14 @@
     display: inline-block;
     width: 25%;
     margin: auto 2.5%;
+    padding-top: 0.5rem;
     float: left;
     border: none;
+
+    .logo-block {
+      width: 80%;
+      margin: 0 auto;
+    }
 
     .stack ul {
       padding: 0 .15rem;
@@ -69,7 +82,7 @@
     .links {
       margin: 0 auto;
       width: auto;
-      padding-left: 1.5rem;
+      padding-left: 2vw;
 
       .fa {
         padding: 5.5%;
