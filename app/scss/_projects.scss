@@ -1,16 +1,49 @@
 .all-projects {
   width: 80%;
   margin: 0 auto;
+  padding-top: 1rem;
 
+  .single-project {
+    box-sizing: border-box;
+    border: solid .1rem $color-primary-3;
+    padding: 0 .5rem;
+  }
+
+  .name {
+    display: inline;
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+
+    color: $color-primary-1;
+    font-weight: bolder;
+  }
 }
 
 @media (min-width: 500px) {
   .all-projects {
     display: inline-block;
     width: 70%;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    padding-right: 1rem;
+
+    .text-floater {
+      float: left;
+    }
 
     .project-title {
       display: none;
+    }
+
+    .tools-title {
+      margin-bottom: .15rem;
+    }
+
+    .tools {
+      margin: .15rem 0;
+      padding: 0 .25rem;
+      list-style: none;
     }
 
   }
