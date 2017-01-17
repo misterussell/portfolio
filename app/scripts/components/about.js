@@ -26,10 +26,10 @@ export default React.createClass({
           </ul>
         </article>
         <article className="links">
-          <a href="mailto:max@misterussell.com" label="email"><i className="fa fa-envelope-o" aria-hidden="true"></i></a>
-          <a href="https://medium.com/@MisteRussell" label="medium blog"><i className="fa fa-medium" aria-hidden="true"></i></a>
-          <a href="https://twitter.com/MisteRussell" label="twitter"><i className="fa fa-twitter" aria-hidden="true"></i></a>
-          <a href="https://github.com/misterussell" label="github"><i className="fa fa-github" aria-hidden="true"></i></a>
+          <a href="mailto:max@misterussell.com" label="email" className="email"><i className="fa fa-envelope-o" aria-hidden="true"></i></a>
+          <a href="https://medium.com/@MisteRussell" label="medium blog" className="blog"><i className="fa fa-medium" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/MisteRussell" label="twitter" className="twitter"><i className="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="https://github.com/misterussell" label="github" className="github"><i className="fa fa-github" aria-hidden="true"></i></a>
         </article>
       </aside>
     );

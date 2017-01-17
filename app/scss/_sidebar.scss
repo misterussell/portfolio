@@ -2,6 +2,7 @@
   display: block;
   width: 80%;
   margin: 0 auto;
+  border-bottom: solid .1rem $color-secondary-1-2;
 
   .stack ul {
     padding: 0 .15rem;
@@ -20,14 +21,24 @@
     width: 40%;
 
     a {
-
       font-size: 1rem;
-      color: black;
-
-      &:visited {
-        color: black;
-      }
     }
+
+    .email, .twitter {
+      color: $color-secondary-1-2;
+    }
+
+    .blog, .github {
+      color: $color-secondary-1-3;
+    }
+    // a {
+    //   font-size: 1rem;
+    //   color: black;
+    //
+    //   &:visited {
+    //     color: black;
+    //   }
+    // }
 
     .fa {
       padding: 5.5%;
@@ -41,6 +52,7 @@
     width: 25%;
     margin: auto 2.5%;
     float: left;
+    border: none;
 
     .stack ul {
       padding: 0 .15rem;
@@ -57,17 +69,7 @@
     .links {
       margin: 0 auto;
       width: auto;
-
-      a {
-        padding: auto 2.5%;
-
-        font-size: 1rem;
-        color: black;
-
-        &:visited {
-          color: black;
-        }
-      }
+      padding-left: 1.5rem;
 
       .fa {
         padding: 5.5%;
