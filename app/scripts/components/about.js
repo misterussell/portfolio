@@ -5,24 +5,38 @@ export default React.createClass({
     return (
       <aside className="about">
         <article className="logo-block">
+          <img src="../assets/images/logo.svg" />
         </article>
         <article className="bio">
-          <h3>Maxwell Russell</h3>
+          <h3>About Me:</h3>
           <p>Bio text here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </article>
         <article className="stack">
           <h3>Stack</h3>
           <ul>
-            <li>JS</li>
+            <li>HTML</li>
+            <li>Javascript</li>
+            <li>DOM Manipulation</li>
+            <li>SPAs</li>
+            <li>REST APIs</li>
+            <li>AJAX</li>
+            <li>JQuery</li>
             <li>Backbone</li>
             <li>React</li>
+            <li>CSS3/CSS Modules</li>
             <li>SASS</li>
             <li>JQuery</li>
             <li>Underscore</li>
-            <li>Underscore</li>
-            <li>Illustrator</li>
-            <li>Photoshop</li>
-            <li>Etc...</li>
+            <li>Bourbon/Neat</li>
+            <li>MBaas</li>
+            <li>Unit Testing</li>
+            <li>GitHub Version Control</li>
+            <li>OSX + Terminal</li>
+            <li>Adobe Illustrator</li>
+            <li>Adobe Photoshop</li>
+            <li>Adobe InDesign</li>
+            <li>Google Analytics</li>
+            <li>Google AdWords</li>
           </ul>
         </article>
         <article className="links">
