@@ -1,4 +1,17 @@
 .all-projects {
-  display: inline-block;
-  width: 70%;
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+@media (min-width: 500px) {
+  .all-projects {
+    display: inline-block;
+    width: 70%;
+
+    .project-title {
+      display: none;
+    }
+
+  }
 }

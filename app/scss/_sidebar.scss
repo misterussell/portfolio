@@ -1,8 +1,7 @@
 .about {
-  display: inline-block;
-  width: 25%;
-  margin: auto 2.5%;
-  float: left;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
 
   .stack ul {
     padding: 0 .15rem;
@@ -18,8 +17,9 @@
 
   .links {
     margin: 0 auto;
+    width: 40%;
+
     a {
-      padding: auto 2.5%;
 
       font-size: 1rem;
       color: black;
@@ -32,6 +32,48 @@
     .fa {
       padding: 5.5%;
     }
+  }
+}
+
+@media (min-width: 500px) {
+  .about {
+    display: inline-block;
+    width: 25%;
+    margin: auto 2.5%;
+    float: left;
+
+    .stack ul {
+      padding: 0 .15rem;
+    }
+
+    .stack li {
+      display: inline-block;
+      padding: .15rem;
+      &:before {
+        content: "-";
+      }
+    }
+
+    .links {
+      margin: 0 auto;
+      width: auto;
+
+      a {
+        padding: auto 2.5%;
+
+        font-size: 1rem;
+        color: black;
+
+        &:visited {
+          color: black;
+        }
+      }
+
+      .fa {
+        padding: 5.5%;
+      }
+    }
+
   }
 
 }
