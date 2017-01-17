@@ -2,9 +2,9 @@ export default [
   {
     name: 'OnTime',
     tools: ['React', 'Backbone', 'SASS', 'Google Distance Matrix Web Service', 'Recharts', 'Backendless MBaaS'],
-    image: '../assets/images/ontime-full.png',
+    image: '../assets/images/onTime-full.png',
     about: 'OnTime is a multi-tasking resource that aims to help users maximize their productivity, mindfullness, and awareness of mobility constraints.',
-    challenge: 'The main challenge of this project was utilizing the flexability of React\'s state based architecture to reuse single components that could handle the different renderin scenario\'s. By maintaining an agile workflow I was able to scale each component as I worked through the addition of new features. Keeping in mind my goal of a simple UI, I was able to concentrate on the functionality of the main timer component without having to worry about overcomplicating the visual structure. Creating a dashboard from scratch also gave me insight into the importance of user-generated data for an app without a wide variety of user input.',
+    challenge: 'The main challenge of this project was utilizing the flexibility of React\'s state based architecture to reuse single components that could handle the different rendering scenario\'s. By maintaining an agile workflow I was able to scale each component as I worked through the addition of new features. Keeping in mind my goal of a simple UI, I was able to concentrate on the functionality of the main timer component without having to worry about overcomplicating the visual structure. Creating a dashboard from scratch also gave me insight into the importance of user-generated data for an app without a wide variety of user input.',
     background: '../assets/backgrounds/confectionary.png'
   },
   {

@@ -12,7 +12,7 @@ export default React.createClass({
           <p>My name is Maxwell Russell, and I'm a recent code school grad. I have a background in management and operations, and studied Art and Art History for my undergrad. I've always enjoyed helping others succeed, aiming to streamline productivity and rethink the way things are done. I'm translating this into code by striving to create thoughtful user experiences. My background in the arts has helped me maintain an eye for visual design as well, my favorite aspect of this being color theory.
           <br></br>
           <br></br>
-          With an interest in efficiency and accessibility, I'm excited to keep learning how to create interesting experiences and readable code.</p>
+          With an interest in efficiency and accessibility, I'm excited about creating interesting experiences and readable code, and learning new tools to do so.</p>
         </article>
         <article className="stack">
           <h3 className="section-name">Stack</h3>

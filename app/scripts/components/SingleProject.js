@@ -8,7 +8,7 @@ export default React.createClass({
         return <li key={ i }>{ tool }</li>;
       });
       let background = {
-        'background-image': `url(${this.props.project.background})`,
+        'backgroundImage': `url(${this.props.project.background})`,
       };
     return (
       <article className="single-project">
