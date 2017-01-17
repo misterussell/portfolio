@@ -9,7 +9,10 @@ export default React.createClass({
         </article>
         <article className="bio">
           <h3 className="section-name">About Me</h3>
-          <p>Bio text here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>My name is Maxwell Russell, and I'm a recent code school grad. I have a background in management and operations, and studied Art and Art History for my undergrad. I've always enjoyed helping others succeed, aiming to streamline productivity and rethink the way things are done. I'm translating this into code by striving to create thoughtful user experiences. My background in the arts has helped me maintain an eye for visual design as well, my favorite aspect of this being color theory.
+          <br></br>
+          <br></br>
+          With an interest in efficiency and accessibility, I'm excited to keep learning how to create interesting experiences and readable code.</p>
         </article>
         <article className="stack">
           <h3 className="section-name">Stack</h3>
